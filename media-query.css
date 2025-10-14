@@ -1,0 +1,43 @@
+@media screen and (max-width: 815px) {
+  .wrapper {
+    padding: 25px;
+  }
+  header {
+    flex-direction: column;
+  }
+  header div {
+    margin-top: 13px;
+  }
+  .volume-slider input {
+    max-width: 100px;
+  }
+  .piano-keys {
+    margin-top: 20px;
+  }
+  .piano-keys .black {
+    height: 100px;
+    width: 40px;
+  }
+  .piano-keys .white {
+    height: 180px;
+    width: 60px;
+  }
+}
+
+@media screen and (max-width: 615px) {
+  .wrapper {
+    width: 100%;
+  }
+  .piano-keys .key:nth-child(14),
+  .piano-keys .key:nth-child(15),
+  .piano-keys .key:nth-child(16),
+  .piano-keys .key:nth-child(17) {
+    display: none;
+  }
+  .piano-keys .black {
+    width: 30px;
+  }
+  .piano-keys .white {
+    width: 50px;
+  }
+}

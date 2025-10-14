@@ -12,10 +12,10 @@ body {
   justify-content: center;
   background: #e3f2fd;
   min-height: 100vh;
+  padding: 0 10px;
 }
 .wrapper {
   background: #141414;
-  width: 780px;
   padding: 35px 40px;
   border-radius: 20px;
 }
