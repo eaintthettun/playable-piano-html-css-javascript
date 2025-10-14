@@ -1,7 +1,4 @@
 @media screen and (max-width: 815px) {
-  .wrapper {
-    padding: 25px;
-  }
   header {
     flex-direction: column;
   }
